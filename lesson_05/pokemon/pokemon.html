@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<!-- 
+Assignment: Write the code for this app so that on the button click the h2 Name element changes to the pokemon searched, the default image is replaced with a picture of that same pokemon, and the type of pokemon is listed in the h3 Type element. If you have time, add a checkbox next to the get pokemon button that says shiny. If this shiny box is checked it should return the shiny picture of that pokemon -->
+
+<body>
+
+    <h1>Which Pokemon?</h1>
+    <input id="searchName" type="text" name="" value="">
+    <button id="searchButton" type="button" name="button">Get Pokemon</button>
+    
+    <div>
+        <h2 id="Name">Name: </h2>
+    </div>
+    <div>
+        <img id="frontPic"src="pokemon.jpeg" alt="">
+        <img id="backPic" src="" alt="">
+    </div>
+    <div>
+        <h3>Type?</h3>
+    </div>
+
+    <!-- external JS link -->
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
